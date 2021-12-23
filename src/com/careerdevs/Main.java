@@ -8,6 +8,7 @@ public class Main {
         System.out.println(addition(123));
         System.out.println(giveMeSomething("career-devs"));
         System.out.println(search(new int[]{1, 3, 5, 7, 9}, 11));
+        System.out.println(convert(4));
     }
     // getFirstValue
     public static int getFirstValue(int[] arr) {
@@ -53,5 +54,18 @@ public static int search(int arr[], int item) {
     }
     return index;
 }
+// convert min to secs
+public static int convert(int minutes) {
+    return minutes * 60;
+
+}
+/* version 2
+public static int convert(int minutes) {
+		int seconds = 0;
+		seconds = minutes * 60;
+		return seconds;
+  }
+ */
+
 
 }
