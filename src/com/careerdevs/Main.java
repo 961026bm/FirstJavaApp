@@ -44,7 +44,7 @@ public class Main {
     public static String giveMeSomething(String a) {
         return "something " + a;
     }
-//
+//find index of
 public static int search(int arr[], int item) {
     int index = -1;
     for (int i = 0; i < arr.length; i++) {
@@ -67,10 +67,14 @@ public static int convert(int minutes) {
 		return seconds;
   }
  */
+    // reverse boolean
 public static boolean reverse(boolean b) {
    return !b;
 }
-//
+// count words
+public static int countWords(String s) {
+    return s.split(" ").length;
+}
 
 
 }
