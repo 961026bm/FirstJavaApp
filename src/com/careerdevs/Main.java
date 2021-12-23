@@ -9,6 +9,7 @@ public class Main {
         System.out.println(giveMeSomething("career-devs"));
         System.out.println(search(new int[]{1, 3, 5, 7, 9}, 11));
         System.out.println(convert(4));
+        System.out.println(reverse(false));
     }
     // getFirstValue
     public static int getFirstValue(int[] arr) {
@@ -66,6 +67,8 @@ public static int convert(int minutes) {
 		return seconds;
   }
  */
-
+public static boolean reverse(boolean b) {
+   return !b;
+}
 
 }
